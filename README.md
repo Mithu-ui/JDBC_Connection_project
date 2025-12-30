@@ -5,50 +5,53 @@ The project demonstrates core JDBC concepts and clean separation between databas
 
 📌 Features
 
-Connects to a MySQL database using JDBC
+->Connects to a MySQL database using JDBC
 
-Menu-driven console interface
+->Menu-driven console interface
 
-Supports dynamic SQL execution
+->Supports dynamic SQL execution
 
-CRUD operations:
+->CRUD operations:
 
-Read data from tables
+  ->Read data from tables
 
-Insert new records
+  ->Insert new records
 
-Update existing records
+  ->Update existing records
 
-Delete records
+  ->Delete records
 
-Uses PreparedStatement for efficient SQL execution
+->Uses PreparedStatement for efficient SQL execution
 
-Displays query results dynamically using ResultSetMetaData
+->Displays query results dynamically using ResultSetMetaData
 
 🏗️ Project Structure
 Project_DBMS
 │
+|
 ├── ConnectionDAO.java   # Handles database connection
+|
 ├── MainClass.java       # Menu-driven application logic
+|
 
 ⚙️ Technologies Used
 
-Java
+->Java
 
-JDBC
+->JDBC
 
-MySQL
+->MySQL
 
-Console I/O
+->Console I/O
 
 🧠 How the Application Works
 
-The user is shown a menu with database operations.
+->The user is shown a menu with database operations.
 
-The user selects an option and enters an SQL query.
+->The user selects an option and enters an SQL query.
 
-ConnectionDAO establishes the database connection.
+->ConnectionDAO establishes the database connection.
 
-The query is executed using PreparedStatement.
+->The query is executed using PreparedStatement.
 
-Output is displayed on the console
+->Output is displayed on the console
